@@ -1,0 +1,302 @@
+
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.visually-hidden {
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	margin: -1px;
+}
+
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.button {
+    border: none;
+    border-radius: 0px 20px;
+    cursor: pointer;
+}
+
+.section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* секция format */
+
+.format {
+    padding: 120px 0;
+    background-color: #10B582;
+}
+.format-wrap {
+    display: flex;
+    gap: 100px;
+}
+
+.format-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: calc(70 / 58);
+    color: #FDFDFD;
+}
+.format-text {
+    width: 478px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: #FDFDFD;
+}
+.format-btn {
+    width: 230px;
+    height: 56px;
+    background: #FA9F42;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FDFDFD;
+}
+
+.format-wrapper {
+
+}
+
+/* секція courses */
+
+.courses {
+    padding: 71px 0 120px 0;
+}
+
+.courses-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-title {
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: calc(70 / 58);
+    color: #353A5A;
+}
+
+.courses-list {
+    margin-bottom: 60px;
+    display: flex;
+    gap: 30px;
+}
+
+.courses-list > .courses-item {
+    width: 270px;
+    height: 226px;
+    padding: 20px;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+}
+
+.courses-link {
+}
+
+.courses-img-wrap {
+    margin-bottom: 15px; 
+}
+
+.courses-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #353A5A;
+}
+
+
+.courses-btn {
+    width: 230px;
+    height: 56px;
+    background: #10B582;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FDFDFD;
+}
+
+
+/* секція join */
+
+.join {
+    max-width: 1440px;
+    height: 578px;
+    margin: 0 auto;
+    padding: 120px 0;
+    background-color: rgb(219, 245, 198);
+    background-image: url(../images/join-bg-img.jpg);
+    background-position: center;
+}
+
+/* .join-wrap {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.join-text-wrap {
+    width: 508px;
+    margin-left: 580px;
+    /* width: 598px;
+    margin-left: auto;
+    padding-right: 90px; */
+}
+
+.join-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: calc(70 / 58);
+    color: #353A5A;
+}
+
+.join-text {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: #353A5A;
+}
+
+.join-btn {
+    width: 230px;
+    height: 56px;
+    background: #FA9F42;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FDFDFD;
+}
+
+/* FOOTER OF SITE */
+
+.footer {
+    padding-top: 120px;
+}
+
+.div-border  {
+    border-top: 1px solid rgba(53, 58, 90, 0.1);
+    border-bottom: 1px solid  rgba(53, 58, 90, 0.1);
+}
+
+.footer-up {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 90px;
+}
+
+.logo-footer {
+    width: 270px;
+}
+.footer-logo-link {
+    display: block;
+    margin-bottom: 27px;
+}
+
+.footer-text {
+    margin-bottom: 47px;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    color: #353A5A;
+}
+.footer-soc-list {
+    display: flex;
+    gap: 25px;
+}
+
+.ftr-soc-link {
+}
+.soc-icon {
+    fill:#353A5A;
+    opacity: 0.3;
+}
+
+.footer-down {
+    padding: 30px 0;
+}
+
+.footer-column-wrap {
+}
+.footer-column-title {
+    margin-bottom: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(16 / 16);
+    color: #353A5A;
+}
+.ftr-column-list {
+}
+.ftr-column-item {
+    margin-bottom: 20px;
+}
+
+.ftr-column-link {
+    font-size: 16px;
+    line-height: calc(16 / 16);
+    color: #353A5A;
+}
+.column-text {
+    font-size: 16px;
+    line-height: calc(21 / 16);
+    color: #353A5A;
+}
+.link-mail {
+    text-decoration-line: underline;
+}
+
+.footer-down {
+    display: flex;
+    gap: 490px;
+}
+
+.policy-list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-down-text {
+    font-size: 14px;
+    line-height: calc(14 / 14);
+    color: #353A5A;
+}
+
