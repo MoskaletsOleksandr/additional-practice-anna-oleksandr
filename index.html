@@ -22,8 +22,130 @@
   </head>
 
   <body>
-    <header></header>
+    <header class="header section">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">О нас</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Платформа</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Курсы</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Лекции</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Тарифы</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Блог</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main>
+      <section class="hero section">
+        <div class="container">
+          <div class="hero__column">
+            <div class="hero__networs-wrap">
+              <ul class="networks__list hero__networs">
+                <li class="networks__item">
+                  <a
+                    href="#"
+                    class="networks__link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="networks__icon" width="22" height="22">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="networks__item">
+                  <a
+                    href="#"
+                    class="networks__link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="networks__icon" width="22" height="22">
+                      <use href="./images/icons.svg#icon-vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="networks__item">
+                  <a
+                    href="#"
+                    class="networks__link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
+                    <svg class="networks__icon" width="22" height="22">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hero__img-wrap">
+              <img
+                class="hero__img"
+                src="./images/hero-img-1.jpg"
+                width="240"
+                height="300"
+                alt="Блондинка в черной шляпе работает за ноутбуком"
+              />
+            </div>
+          </div>
+          <div class="hero__column">
+            <a href="./index.html" class="logo hero__logo">
+              <svg class="logo__icon" width="170" height="22">
+                <use href="./images/icons.svg#icon-logotype"></use>
+              </svg>
+            </a>
+            <h1 class="heo__title">Образовательная онлайн-платформа</h1>
+            <p class="hero__subtitle">
+              Курсы и видео-лекции по дизайну, копирайтингу, <span lang="en">SMM</span>, таргету и
+              многим другим направлениям
+            </p>
+            <button type="button" class="hero__btn">Все направления</button>
+          </div>
+          <div class="hero__column">
+            <div class="hero__img-wrap">
+              <img
+                class="hero__img"
+                src="./images/hero-img-2.jpg"
+                width="240"
+                height="300"
+                alt="Кудрявая шатенка в наушниках работает за ноутбуком"
+              />
+            </div>
+            <div class="scroll-down">
+              <a href="#" class="scroll-down__link"
+                >Листайте вниз
+                <svg class="dcroll-down__icon" width="8" height="16">
+                  <use href="./images/icons.svg#icon-down"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="format section">
         <div class="format-wrap container">
           <div class="format-wrap-img">
@@ -103,7 +225,7 @@
         </div>
       </section>
     </main>
-    
+
     <footer class="footer section">
       <div class="div-border">
         <div class="footer-up container">
@@ -170,7 +292,9 @@
           <div class="footer-column-wrap">
             <p class="footer-column-title">Контакты</p>
             <ul class="ftr-column-list">
-              <li class="ftr-column-item"><a href="#" class="ftr-column-link">Связаться с нами</a></li>
+              <li class="ftr-column-item">
+                <a href="#" class="ftr-column-link">Связаться с нами</a>
+              </li>
               <li class="ftr-column-item"><a href="#" class="ftr-column-link">Консультация</a></li>
               <li class="ftr-column-item"><a href="#" class="ftr-column-link">Реквизиты</a></li>
               <li class="ftr-column-item"><a href="#" class="ftr-column-link">Поддержка</a></li>
@@ -179,15 +303,23 @@
           <div class="footer-column-wrap">
             <p class="footer-column-title">Возникли вопросы?</p>
             <p class="column-text">Напишите нам на почту</p>
-            <a href="mailto:education@ementor.info" class="link-mail column-text">education@ementor.info</a>
+            <a href="mailto:education@ementor.info" class="link-mail column-text"
+              >education@ementor.info</a
+            >
           </div>
         </div>
       </div>
       <div class="footer-down container">
         <p class="footer-down-text">E-Mentor © 2021 Все права защищены</p>
         <ul class="policy-list">
-          <li class="policy-item"><a href="#" class="policy-link footer-down-text">Политика обработки персональных данных</a></li>
-          <li class="policy-item"><a href="#" class="policy-link footer-down-text">Публичная оферта</a></li>
+          <li class="policy-item">
+            <a href="#" class="policy-link footer-down-text"
+              >Политика обработки персональных данных</a
+            >
+          </li>
+          <li class="policy-item">
+            <a href="#" class="policy-link footer-down-text">Публичная оферта</a>
+          </li>
         </ul>
       </div>
     </footer>
